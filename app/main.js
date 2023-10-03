@@ -14,6 +14,9 @@ async function start() {
   } catch (error) {
     console.log(error);
   }
+  finally{
+     console.log('finally')
+  }
 }
 const btn = document.querySelector("#btn");
 btn.addEventListener("click", function () {
